@@ -53,17 +53,11 @@ function BasicExample() {
             </NavDropdown>
 
 						<NavDropdown className='me-2' title="Media" id="basic-nav-dropdown">
-              <Link className='dropdown-item' to={'/'}>
-								About
+              <Link className='dropdown-item' to={'/news'}>
+								News
 							</Link>
 							<Link className='dropdown-item' to={'/'}>
-								Speakers
-							</Link>
-							<Link className='dropdown-item' to={'/'}>
-								Programme
-							</Link>
-							<Link className='dropdown-item' to={'/'}>
-								Papers & Presentation
+								Gallary
 							</Link>
             </NavDropdown>
 
