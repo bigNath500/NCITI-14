@@ -140,4 +140,17 @@ body {
     .theme {
         padding: 5rem 0px;
     }
+
+    // speakers 
+
+    .speakers {
+        padding: 5rem 0px;
+
+        .container {
+            .img_box {
+                height: 300px;
+                overflow: hidden;
+            }
+        }
+    }
 }

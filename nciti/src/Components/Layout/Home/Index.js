@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './Hero/Index'
 import Theme from './Theme/Theme'
+import Speakers from './Speakers/Index' 
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
 
             {/* why attend */}
             <Theme />
+
+            {/* speakers */}
+            <Speakers />
         </main>
     </>
   )
