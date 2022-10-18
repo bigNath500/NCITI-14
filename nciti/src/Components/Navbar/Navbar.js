@@ -12,7 +12,7 @@ function BasicExample() {
 
 
 	const changeBgColor = () => {
-		if(window.scrollY >= 60) {
+		if(window.scrollY >= 20) {
 			setBgBar(true);
 		} else {
 			setBgBar(false);
@@ -41,7 +41,7 @@ function BasicExample() {
               <Link className='dropdown-item' to={'/'}>
 								About
 							</Link>
-							<Link className='dropdown-item' to={'/'}>
+							<Link className='dropdown-item' to={'/speakers'}>
 								Speakers
 							</Link>
 							<Link className='dropdown-item' to={'/'}>
