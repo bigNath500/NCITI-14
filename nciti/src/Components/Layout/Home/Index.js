@@ -5,6 +5,7 @@ import Speakers from './Speakers/Index'
 import Programme from './Programme/Index'
 import Info from './Info/Index'
 import Sponsors from './Sponsors/index'
+import Direction from './Direction/index'
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
 
             {/* sponsors */}
             <Sponsors />
+
+            {/* Direction */}
+            <Direction />
         </main>
     </>
   )
