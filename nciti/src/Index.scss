@@ -173,4 +173,14 @@ body {
     .info_container {
         padding: 5rem 0px;
     }
+
+    // sponsors
+
+    .sponsors {
+        padding: 5rem 0px;
+        background: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0,0,0,0.932)),url('Components/Assets/Images/sponsors_bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }

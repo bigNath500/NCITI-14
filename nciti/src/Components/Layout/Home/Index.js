@@ -4,6 +4,7 @@ import Theme from './Theme/Theme'
 import Speakers from './Speakers/Index' 
 import Programme from './Programme/Index'
 import Info from './Info/Index'
+import Sponsors from './Sponsors/index'
 
 const Home = () => {
   return (
@@ -22,8 +23,10 @@ const Home = () => {
             <Programme />
 
             {/* Info */}
-
             <Info />
+
+            {/* sponsors */}
+            <Sponsors />
         </main>
     </>
   )
