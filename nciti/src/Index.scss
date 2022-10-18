@@ -158,5 +158,13 @@ body {
 
     .programme {
         padding: 5rem 0px;
+
+        .container {
+            .bg-white {
+                &.shadow-sm {
+                    width: 800px;
+                }
+            }
+        }
     }
 }
