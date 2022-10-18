@@ -17,12 +17,17 @@ body {
     // navbar
 
     nav {
+        transition: .4s ease-in;
         .container {
             .nav-link {
                 text-transform: uppercase;
                 text-decoration: none;
                 font-weight: 400 !important;
                 
+            }
+
+            .navbar-toggler {
+                background-color: #198754;
             }
         }
 

@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -7,8 +8,25 @@ import { Link } from 'react-router-dom';
 import Brand from '../Assets/Images/fmiti-logo.png'
 
 function BasicExample() {
+	const [bgBar, setBgBar] = useState(false);
+
+
+	const changeBgColor = () => {
+		if(window.scrollY >= 60) {
+			setBgBar(true);
+		} else {
+			setBgBar(false);
+		}
+	}
+
+	useEffect(() => {
+		changeBgColor();
+		// adding the event when scroll change background
+		window.addEventListener("scroll", changeBgColor);
+	})
+
   return (
-    <Navbar bg="transparent" className='fixed-top pt-3 pb-3 ' expand="lg">
+    <Navbar bg={bgBar ? "white" : "transparent"} className={bgBar ? 'fixed-top pt-3 pb-3 navbar-dark shadow' : 'fixed-top pt-3 pb-3 '} expand="lg">
       <Container>
         <Navbar.Brand href="#home">
 					<img src={Brand} width="200" alt="NCITI-LOGO" />
