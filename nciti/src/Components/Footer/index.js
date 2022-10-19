@@ -7,6 +7,7 @@ const index = () => {
     <>
         <footer className='bg-dark'>
           <Container className='text-center text-muted'>
+            <div>
             <Link className='text-muted text-decoration-none' to={'/'}>
               About
             </Link>
@@ -26,6 +27,7 @@ const index = () => {
             <Link className='text-muted text-decoration-none' to={'/'}>
               Venue
             </Link>
+            </div>
             <br /> <br />
 
             &copy; 2022, NCITI. All rights reserved

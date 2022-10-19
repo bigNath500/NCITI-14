@@ -46,7 +46,7 @@ const Index = () => {
                                 </p>
 
                                 <div>
-                                    <Link to={'/'} className="text-decoration-none text-danger d-flex align-items-center">
+                                    <Link to={'/news'} className="text-decoration-none text-danger d-flex align-items-center">
                                         Read More <hiIcons.HiOutlineArrowRight className='ms-1' />
                                     </Link>
                                 </div>

@@ -76,7 +76,7 @@ const index = () => {
                                 </Row>
                             </div>
 
-                            <div className="mt-3">
+                            <div className="mt-3 d-flex">
                                 <Link to={'/'} className="text-decoration-none">
                                     <Button variant='success'>View Hotels Info</Button>
                                 </Link>

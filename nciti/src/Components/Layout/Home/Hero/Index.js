@@ -71,13 +71,13 @@ const Index = () => {
 
                 {/* attend on zoom card */}
 
-                <div className='zoom_card bg-white col-md-3 p-4 text-center'>
+                <div className='zoom_card shadow-sm bg-white col-md-3 p-4 text-center'>
                     <img src={zoomImg} width="80" alt="zoom brand" />
 
                     <div className='mt-2'>
                         <h5>Can't come to Ekiti?</h5>
                         <h6 className='fw-light text-muted'>Join Us Via Zoom</h6>
-                        <a href='#'>
+                        <a href='/'>
                             <Button variant='primary'>Click Here</Button>
                         </a>
                     </div>

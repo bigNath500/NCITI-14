@@ -13,7 +13,7 @@ const Index = () => {
                 <h1 className='text-center text-primary fw-bold text-capitalize'>Programmme of events</h1>
 
                 <div className='d-flex mt-4 justify-content-center align-items-center'>
-                    <div className="bg-white text-center shadow-sm pt-5 pb-5 p-5 rounded rounded-2">
+                    <div className="bg-white text-center shadow-sm pt-5 pb-5 p-lg-5 p-sm-3 rounded rounded-2">
                         <h3 className='text-dark text-center fw-bold'>
                             Programme Review.
                         </h3>
